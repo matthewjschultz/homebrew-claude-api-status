@@ -1,6 +1,6 @@
 cask "claude-api-status" do
-  version "1.2.0"
-  sha256 "e0a78d5a497c611fe4358404dc652ceb3a6f25e137dad255ac56138c4aaecbf3"
+  version "1.3"
+  sha256 "2aa496f42b596ffb2b61757e3b614d895fd23326ef7c090cafd5699964665536"
 
   url "https://github.com/matthewjschultz/homebrew-claude-api-status/releases/download/v#{version}/ClaudeAPIStatus-#{version}.dmg"
   name "Claude API Status"
