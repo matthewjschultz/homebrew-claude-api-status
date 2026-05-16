@@ -1,16 +1,18 @@
 # homebrew-claude-api-status
 
-Homebrew cask for [Claude API Status](https://mjs.dev/claude-api-status/) — a macOS menu bar app that monitors Claude Code and Claude API health.
+> **This tap has moved.** Claude API Status has been succeeded by [Claude Status](https://claudestatus.app) and is available from the consolidated tap.
 
-## Install
+## Install Claude Status
 
-```bash
-brew tap matthewjschultz/claude-api-status
-brew install claude-api-status
+```
+brew install matthewjschultz/tap/claude-status
 ```
 
-## Update
+If you previously used this tap, migrate with:
 
-```bash
-brew upgrade claude-api-status
 ```
+brew untap matthewjschultz/claude-api-status
+brew install matthewjschultz/tap/claude-status
+```
+
+See [homebrew-tap](https://github.com/matthewjschultz/homebrew-tap) for all available casks.
